@@ -1,0 +1,160 @@
+*{
+    font-family: "Bakerville", "Palatino", "Century Schoolbook L","Times New Roman","serif-sans";
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    
+}
+
+h1,h4{
+    font-size: 3.5em;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    text-align: left;
+}
+
+h3{
+    font-size: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.main{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPSJg7SrgT84kn7gjI4X3f7MxAZQWMv1fWSut-BNHpQ&s');
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100%;
+    background-attachment: scroll;
+    opacity: 40;
+}
+
+.chapter-setup{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding:2rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.927); 
+}
+
+.sub-chapter{
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background: rgba(82, 74, 74, 0.6);
+}
+
+.things{
+    margin-left: 2rem;
+}
+
+.text-heading {
+    color:yellow;
+    align: center;
+  }
+  
+  .header{
+    background-image: url(https://scontent.fcrk1-5.fna.fbcdn.net/v/t39.30808-6/257124378_1915261498654014_1533795157784964737_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=8K9_DAJfsEIAX8iisGH&_nc_ht=scontent.fcrk1-5.fna&oh=00_AT-z7flXy73RlKuZ9gtI7nvu9Zcyf8KkA9iQSDLlgCNRkA&oe=6335624A);
+    font-family: 'Courier New';
+    background-color: brown;
+    padding: 100px;
+    text-align: center;
+    background-position: 100%;
+  }
+  
+  .nav_menu {
+    overflow: hidden;
+    background-color: rgb(209, 94, 0);
+  }
+  
+  .nav_menu a {
+    float: left;
+    display: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_menu a:hover {
+    background-color: white;
+    color:red;
+  }
+  
+  .columnB, .columnA {
+    float: right;
+    width: %;
+    padding: 15px;
+    text-align: justify;
+    background-color: white;
+  }
+
+  }
+  
+  .footer{
+    
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    clear: right;
+  
+  }
+  
+  .footer a
+  {
+    display:inline;
+    color: white;
+    padding: 17px 16px;
+    text-decoration: none;
+    font-family: arial;
+  }
+
+
+
+
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff6a00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
